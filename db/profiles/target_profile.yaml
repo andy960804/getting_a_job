@@ -1,9 +1,21 @@
-target_role: ""
-target_industry: []
-preferred_location: []
+target_role: "생산기술"
+target_industry:                                                                                                      
+    - "자동차"                                                                                                       
+    - "반도체"                                                                                                        
+    - "제조업"
+preferred_location: 
+    - "서울"                                                                                                            
+    - "경기"
+    - "인천"
+    - "충남"
+    - "충청도"
+    - "충북"
 salary_range:
-  min: 0
-  max: 0
+  min: 4000
+  max: 8000
   unit: "만원/연"
 excluded_companies: []
-priority_values: []
+priority_values: 
+    - "워라벨"
+    - "직무전문성"
+    - "성장"
