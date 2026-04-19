@@ -1,0 +1,9 @@
+target_role: ""
+target_industry: []
+preferred_location: []
+salary_range:
+  min: 0
+  max: 0
+  unit: "만원/연"
+excluded_companies: []
+priority_values: []
