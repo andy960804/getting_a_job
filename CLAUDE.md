@@ -57,6 +57,15 @@ db/error_log.md 기록 → rules/lessons_learned.md 규칙 추가 → 에이전�
 동일 실수 2회 이상 → Hard Constraints로 격상
 ```
 
+## 모델 사용 가이드
+> Claude Code는 자동 모델 전환을 지원하지 않으므로 작업 전 수동으로 `/model` 명령 실행
+
+| 모델 | 전환 명령 | 사용 상황 |
+|------|-----------|-----------|
+| Haiku 4.5 | `/model claude-haiku-4-5-20251001` | 글자 수 계산, 파일 목록 확인, 단순 포맷 변환 등 기계적 작업 |
+| Sonnet 4.6 | `/model claude-sonnet-4-6` | 공고 분석, 경험 카드 Linter, 경력기술서 초안 등 일반 작업 (기본값) |
+| Opus 4.6 | `/model claude-opus-4-6` | `/dumping` 실행, 자소서 v1→v3 집필, 필살기 판정 등 사고 집약 작업 |
+
 ## 품질 기준
 - AI 탐지: 인간 작성 확률 80% 이상
 - 경험 카드: 3C+4P 7개 레이어 모두 PASS
